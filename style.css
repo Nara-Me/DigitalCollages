@@ -1,0 +1,101 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+video {
+  display: block;
+  height: 100vh;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: 0.2;
+}
+
+.videoView {
+  position: relative;
+}
+
+.videoView p {
+  position: absolute;
+  padding: 5px;
+  background-color: #80ff00;
+  color: #000000;
+  border: 5px dashed #80ff00;
+  z-index: 2;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* Object highlighter */
+.highlighter {
+  border: 4px dashed #80ff00;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+/* Popup menu */
+#popupMenu {
+  position: absolute;
+  background: #e0e0e0;
+  padding: 10px;
+  z-index: 1000;
+  border-radius: 20px;
+  max-height: 500px;
+  max-width: 44vw;
+  overflow-y: scroll;
+}
+
+#popupMenu img:hover {
+  background: rgb(117, 117, 117);
+  border-radius: 25px;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  z-index: 2;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+#webcamButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#modeToggleButton {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  display: none;
+}
