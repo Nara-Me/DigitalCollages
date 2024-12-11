@@ -2,6 +2,10 @@
 
 This project is a proof of concept that creates a digital space for the creation of live collages through a camera input. It detects a few objects and highlights them, allowing for the placement of a chosen image on top, replacing them. This image will follow the object if it is moved and can be permanently applied to the space if the user so desires. Its intended use is for inside spaces (like a living room) where there are various assortments of objects that can be moved from time to time. It can be applied to other spaces with branching results. This results in an ever-evolving dadaistic collage.
 
+## Webpage ##
+
+The project can be tested [here](https://nara-me.github.io/DigitalCollages/).
+
 ## Installation ##
 
 The only installation necessary is the download of the repository files.
