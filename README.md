@@ -14,7 +14,7 @@ The only installation necessary is the download of the repository files.
 
 1. First, use a code editor that can create a local live server to run the code (VS Code for example);
 2. After opening the project online, click the enable camera button after it becomes available. This can take some time because the object detection model needs to load first;
-3. When the camera captures video, make sure there are objects from [this list]((https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/coco.yaml)) that can be detected. It's possible to capture yourself to test the program if there are no other objects around;
+3. When the camera captures video, make sure there are objects from [this list](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/coco.yaml) that can be detected. It's possible to capture yourself to test the program if there are no other objects around;
 4. Clicking on one of the detected objects (highlighted with a bounding box) opens a menu with images to choose from. Selecting one will place it on top of the object.
 5. There are two modes - Replace and Collage. In the replace mode, selecting a different image for an object that already had one merely replaces it with the new one. The collage mode permanently places the old image on the canvas and no longer updates its position relating to the object. 
 
